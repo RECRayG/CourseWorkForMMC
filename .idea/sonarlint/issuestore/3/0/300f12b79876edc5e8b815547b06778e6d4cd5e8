@@ -1,0 +1,26 @@
+
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(†‹ŠÖşÿÿÿÿ
+k
+java:S1149
+"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(¤¡Å üÿÿÿÿ
+f
+java:S1149"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(í€Îß
+f
+java:S1149"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(ûÎäÇ
+f
+java:S1149"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(ûÎäÇ
+f
+java:S1149&"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(ÜÛà
+k
+java:S1149("PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(¢§Î™üÿÿÿÿ
+f
+java:S11492"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(ÜÛà
+k
+java:S11494"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(¢§Î™üÿÿÿÿ
+l
+java:S1149¯"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(÷’ú‘üÿÿÿÿ
+l
+java:S1149¯"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(÷’ú‘üÿÿÿÿ
+l
+java:S1149°"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(Ü†ºŸûÿÿÿÿ
+R	java:S125Á"<This block of commented-out lines of code should be removed.(È…À

@@ -1,0 +1,13 @@
+
+{	java:S135Ê"YReduce the total number of break and continue statements in this loop to use at most one.(æ§ã¢ùÿÿÿÿ8„ƒºéÒ1
+_
+java:S4977"=Rename "T" which hides a type parameter from the outer scope.(›Š¨ğøÿÿÿÿ8ÊÃ”éÒ1
+u	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(èŸşc8¨û³æÒ1
+d
+java:S1659T"BDeclare "width" and all following declarations on a separate line.(„Å˜¾ıÿÿÿÿ8Öû³æÒ1
+n
+java:S1149·"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(©‘¢ê8ß…ºéÒ1
+p
+java:S3776­"RRefactor this method to reduce its Cognitive Complexity from 21 to the 15 allowed.(ŒØãÒ8é…ºéÒ1
+9
+java:S3626Ï"Remove this redundant jump.(ÉŠ©ƒ8ê…ºéÒ1

@@ -1,0 +1,34 @@
+
+E
+java:S3740"/Provide the parametrized type for this generic.(‘¸Ü¶
+E
+java:S3740"/Provide the parametrized type for this generic.(ßœ“Å
+J
+java:S3740!"/Provide the parametrized type for this generic.(ßíƒâøÿÿÿÿ
+J
+java:S3740!"/Provide the parametrized type for this generic.(ßíƒâøÿÿÿÿ
+E
+java:S3740{"/Provide the parametrized type for this generic.(£·¶©
+E
+java:S3740|"/Provide the parametrized type for this generic.(¶üàÌ
+F
+java:S3740…"/Provide the parametrized type for this generic.(Âã’ä
+K
+java:S3740†"/Provide the parametrized type for this generic.(ùîüÿÿÿÿ
+K
+java:S3740Œ"/Provide the parametrized type for this generic.(üúÅãşÿÿÿÿ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(†‹ŠÖşÿÿÿÿ
+f
+java:S1149"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(‘¸Ü¶
+f
+java:S1149"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(ßœ“Å
+k
+java:S1149!"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(ßíƒâøÿÿÿÿ
+k
+java:S1149!"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(ßíƒâøÿÿÿÿ
+;
+java:S2676”"Use the original value instead.(áˆˆèüÿÿÿÿ
+C
+java:S1068"-Remove this unused "threshold" private field.(®Ğ°¼
+S
+java:S1144Œ"7Remove this unused private "restoreFromHistory" method.(üúÅãşÿÿÿÿ
