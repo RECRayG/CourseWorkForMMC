@@ -3,9 +3,7 @@ package Collections;
 import API.PersistentCollection;
 import Help.BitTree;
 
-import java.util.ArrayList;
 import java.util.Stack;
-import java.util.List;
 
 public class PersistentLinkedList<T> implements PersistentCollection<T> {
     /**
@@ -146,28 +144,6 @@ public class PersistentLinkedList<T> implements PersistentCollection<T> {
         redoHistory.clear();
     }
 
-    private void copyBitTreeToStructure(BitTree.Node bitTreeNode, Structure<Node<T>> structure) {
-        if (bitTreeNode != null) {
-            List<T> values = bitTreeNode.getValue();
-            T valueToAdd = (values != null && !values.isEmpty()) ? values.get(0) : null;
-
-            Node<T> newNode = new Node<>(valueToAdd, -1, -1);
-            structure.addArray(newNode);
-
-            if (structure.isEmpty()) {
-                structure.head = structure.tail = 0;
-            } else {
-                Node<T> lastNode = structure.get(structure.getSize() - 1);
-                lastNode.next = structure.getSize() - 1;
-            }
-
-            for (Object child : bitTreeNode.getChild()) {
-                copyBitTreeToStructure((BitTree.Node) child, structure);
-            }
-        }
-    }
-
-
     private Structure<Node<T>> getCurrentStructure() {
         return undoHistory.isEmpty() ? new Structure<>() : undoHistory.peek();
     }
@@ -222,27 +198,6 @@ public class PersistentLinkedList<T> implements PersistentCollection<T> {
 
         return this;
     }
-
-
-    /*@Override
-    public PersistentLinkedList<T> add(T element) {
-        Structure<Node<T>> currentStructure = getCurrentStructure();
-        Structure<Node<T>> newStructure = new Structure<>(currentStructure);
-
-        int newNodeIndex = currentStructure.getSize();
-        Node<T> newNode = new Node<>(element, newNodeIndex - 1, -1);
-
-        if (!currentStructure.isEmpty()) {
-            Node<T> lastNode = currentStructure.get(newNodeIndex - 1);
-            lastNode.next = newNodeIndex;
-        }
-
-        newStructure.addList(newNode);
-        undoHistory.push(newStructure);
-        redoHistory.clear();
-
-        return this;
-    }*/
 
     @Override
     public PersistentLinkedList<T> remove(T element) {

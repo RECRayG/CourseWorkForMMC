@@ -23,8 +23,6 @@ public class PersistentHashMap<K, V> implements PersistentCollection<Entry<K, V>
         }
     }
     private final PersistentArray<PersistentLinkedList<Entry<K, V>>> hashMap = new PersistentArray<>();
-    /*private final Stack<Integer> undoHistory = new Stack<>();
-    private final Stack<Integer> redoHistory = new Stack<>();*/
     private final Stack<UndoRedoAction<K, V>> undoHistory = new Stack<>();
     private final Stack<UndoRedoAction<K, V>> redoHistory = new Stack<>();
 
