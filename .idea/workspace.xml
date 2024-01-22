@@ -4,17 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f4e6af02-da2a-4576-986e-04f915a12087" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="f4e6af02-da2a-4576-986e-04f915a12087" name="Changes" comment="Cleaned comments.">
+      <change beforePath="$PROJECT_DIR$/src/main/java/Collections/PersistentHashMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Collections/PersistentHashMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Collections/PersistentLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Collections/PersistentLinkedList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,17 +40,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;last_directory_selection&quot;: &quot;C:/NSU Labs/Modern Methods to Coding/CourseWork/CourseWork/src/test/java/Collections&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/NSU Labs/Modern Methods to Coding/Cljure Lab 4/my-lab4&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "last_directory_selection": "C:/NSU Labs/Modern Methods to Coding/CourseWork/CourseWork/src/test/java/Collections",
+    "last_opened_file_path": "C:/NSU Labs/Modern Methods to Coding/Cljure Lab 4/my-lab4"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -216,6 +209,14 @@
       <option name="presentableId" value="Default" />
       <updated>1701764867963</updated>
     </task>
+    <task id="LOCAL-00001" summary="Cleaned comments.">
+      <created>1705955032280</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1705955032280</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -228,6 +229,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Cleaned comments." />
+    <option name="LAST_COMMIT_MESSAGE" value="Cleaned comments." />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
